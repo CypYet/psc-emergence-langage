@@ -43,6 +43,6 @@ for i in range (n_test) :
 
 plt.plot(valeur, robot1, label ="robot 1")
 plt.plot(valeur, robot2, label ="robot 2")
-plt.title(f"Distributions de probabilité de son des robots. \n \u03C3 = {sigma}, poids = {poids}, n_étapes = {n_test}, curiosite = {curiosite}. " , fontsize = 15) # j'ai modifié la signification du poids pour pouvoir expliquer ce qu'il veut dire
+plt.title(f"Distributions de probabilité de son des robots. \n \u03C3 = {sigma}, poids = {poids}, n_étapes = {n_test}, curiosite = {curiosite}. " , fontsize = 15) 
 plt.legend()
 plt.show()
